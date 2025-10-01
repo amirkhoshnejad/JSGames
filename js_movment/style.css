@@ -1,0 +1,32 @@
+body{
+    font-family: american_typewriter;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#AliPic{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#MyButton{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
