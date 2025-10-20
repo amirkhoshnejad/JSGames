@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 2px solid black;
+    margin: 5px;
+}
+.greedy{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.OriginalSquare{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    border: 2px solid black;
+    margin: 5px;
+}
