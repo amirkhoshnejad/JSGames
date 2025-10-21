@@ -22,3 +22,23 @@ body {
     background: black;
     gap: 5px;
 }
+.score{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    gap: 10px;
+    font-size: 20px;
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 6px;
+}
+.cscore{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    gap: 10px;
+    font-size: 20px;
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 6px;
+}
